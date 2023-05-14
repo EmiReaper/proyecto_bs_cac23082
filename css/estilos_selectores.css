@@ -1,0 +1,76 @@
+/*Lenguaje de estilos - de diseño web
+css-- hojas de estilos en cascada
+
+por cada proyecto una hoja de estilos de css
+
+*/
+/*esto es un comentario en css
+es multilinea
+
+sintaxis basica de css:
+
+
+selector{
+
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+
+}
+
+3 selectores principales
+selector de etiqueta - el menos especifico
+selector de class * clasificando un sector especifico de mi html y puedo reutilizar esa clasificacion que le estoy dando en otro sector - nivel intermedio de especificidad
+
+selector de id = identificador unico de un sector de html - la manera mas especifica de dar estilados
+
+*/
+
+/*estilados del body
+#body{
+    background-color: rgb(131, 48, 131);
+}
+.body{
+    background-color: rgba(255, 166, 0, 0.945);
+}
+body{
+    background-color: pink;
+}
+body{
+    background-color: rgba(255, 0, 0, 0.904)!important;
+}*/
+/*
+header{
+    background-color: red;
+}
+
+div{
+    background-color: rgb(112, 112, 238);
+}
+
+/*el selector de clase se lo llama a traves de un punto
+
+.card{
+    background-color: green;
+}*/
+
+.body{
+    background-color: pink;
+    font-size: 50px;
+    color: rgb(27, 27, 27);
+}
+
+body header nav ul li a{
+    color: red;
+    text-decoration: none;
+}
+a{
+    color: rgb(255, 0, 200);
+    
+}
+
+.navegacion .ListaNav .itemLista a{
+    color: rgb(253, 168, 10);
+    text-decoration: none;
+}
